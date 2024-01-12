@@ -2,6 +2,8 @@
 
 Desafio criado para a 2° fase do processo seletivo do Programa Aceleradora Ágil.
 
+<img src="assets/pagMenu.png">
+
 
 ## Descrição do Desafio
 1. Crie um layout de largura e altura variável de acordo com o conteúdo da página, dividido em duas
@@ -13,13 +15,14 @@ coloque uma imagem de um ícone padrão, um Nome genérico abaixo da imagem e
 um texto.
 4. Para criar uma formatação para o menu esquerdo com os 4 links, utilize a estrutura abaixo:
 
-  <ul>
+ ``` 
+ <ul>
    <li><a href=”#”>Link1</a></li>
    <li><a href=”#”>Link2</a></li>
    <li><a href=”#”>Link3</a></li>
    <li><a href=”#”>Link4</a></li>
-</ul>
-
+ </ul>
+```
 
    Crie uma formatação para esse menu.
 
@@ -53,5 +56,7 @@ tornando-o mais agradável e intuitivo.
 ## ✒️ Autora
 
 * **Isabele Lemos** - [LinkedIn](https://www.linkedin.com/in/isabele-lemos-5568b5215/)
+Acesse e navegue pelo site através do link: http://layoutagil.io/
+
 
 
