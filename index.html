@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Menu-Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  </head>
+  <body>
+    <div id="container">
+      <div id="menu">
+        <img src="Imagens/perfil.png" alt="Foto de perfil">
+        <h1>Isabele Lemos</h1>
+        <p class="descricao">
+          Estudante de Análise e Desenvolvimento de sistemas pelo IFPE, leitora apaixonada por Stephen King e amante da tecnologia.
+        </p>
+        <ul class="centralizando">
+          <li>
+            <a href="https://www.instagram.com/isabele.lemos_/" target="_blank" class="link">
+            <button class="degrade">
+                <span>Instagram</span>
+                <i class="bi bi-instagram"></i>
+            </button>
+        </a>
+      </li>
+      <li>
+          <a href="https://www.linkedin.com/in/isabele-lemos-5568b5215/" target="_blank" class="link">
+            <button class="degrade">
+                <span>LinkedIn</span>
+                <i class="bi bi-linkedin"></i>
+            </button>
+        </a>
+      </li>
+          <li>
+            <a href="https://github.com/isabelelemos" target="_blank" class="link">
+              <button class="degrade">
+                  <span>GitHub</span>
+                  <i class="bi bi-github"></i>
+              </button>
+          </a>
+          </li>
+          <li>
+            <a href="" target="_blank" class="link">
+              <button class="degrade">
+                  <span>Whatsapp</span>
+                  <i class="bi bi-whatsapp"></i>
+              </button>
+          </a>
+          </li>
+        </ul>
+      </div>
+      <div id="content">
+        <h1>Lista de Tarefas</h1>
+        <div class="task-table">
+          <div class="task-list">
+            <h3>Dia</h3>
+            <ul id="day-tasks">
+              <li>
+                
+                <span>Aula de Inteligência artificial</span>
+                <i class="bi bi-check-circle" onclick="removeTask(event)"></i>
+              </li>
+              
+            </ul>
+            <div class="add-task">
+              <input autofocus rows="10" cols="50" type="text" id="new-day-task" placeholder="Adicionar Tarefa">
+              <button onclick="addTask('day')">+</button>
+            </div>
+          </div>
+          <div class="task-list">
+            <h3>Noite</h3>
+            <ul id="night-tasks">
+              <li>
+                <span>Assistir séries</span>
+                <i class="bi bi-check-circle" onclick="removeTask(event)"></i>
+              </li>
+              
+            </ul> 
+            <div class = "add-task"> 
+              <input type = "text" id = "new-night-task" placeholder = "Adicionar Tarefa"> 
+              <button onclick = "addTask ('night')"> +</button> 
+            </div> 
+          </div> 
+        </div> 
+      </div> 
+    </div> 
+  </body>
+</html>
